@@ -6,8 +6,7 @@ import './index.css'
 import './common.scss'
 import img from './password1.webp'
 import copyImg from './copy-icon-png-17.jpg'
-import { fontawesome } from '@fortawesome/react-fontawesome'
-import { faCopy } from '@fortawesome/free-solid-svg-icons'
+
 const PasswordGenerator = () => {
   const [passwordLength, setPasswordLength] = useState(8)
   const [upperCase, setUpperCase] = useState(true)
